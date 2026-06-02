@@ -6,11 +6,13 @@ link = input("enter a website link : ")
 # predetermined score
 score = 0
 
-# give intel to train the detector
+# give intel to train the detector                                     
 has_tinyurl = "tinyurl" in link
 has_bitly = "bit.ly" in link
 free = "free" in link
 money = "money" in link
+prize = "prize" in link
+winner = "winner" in link
 
 # checking for scammy lines
 if has_tinyurl == True:
@@ -29,11 +31,18 @@ if money == True:
     score = score + 1
     print("'money' detected")
 
+if prize == True:
+    score = score + 1
+    print("'prize' detected")
+
+if winner == True:
+    score = score + 1
+    print("'winner' detected")
 
 # counting final score to check possibilities of suspicious links
-if score <= 1 :
+if score <= 2 :
     print("scam possibility : LOW")
-elif score == 2 or score == 3 :
+elif score >= 3 and score <= 4:
     print("scam possibility : MEDIUM")
 else :
     print("scam possibility : HIGH")
