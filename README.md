@@ -12,3 +12,6 @@ MY PYTHON PROJECTS AND LEARNING PROGRESS
 
 4. minecraft mining trip checker (v1) :
    this evaluates whether a player has the resources, equipment, and supplies needed for a safe and efficient minecraft mining expedition
+   
+5. nether expedition checker (v1) :
+   a checker that evaluates gear, supplies, and survival essentials before entering the nether
