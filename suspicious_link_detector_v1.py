@@ -46,3 +46,6 @@ elif score >= 3 and score <= 4:
     print("scam possibility : MEDIUM")
 else :
     print("scam possibility : HIGH")
+
+# scammers can do 'fr33', 'w1nner', 'm0ney', etc etc
+# so you were basically creating a caveman antivirus 😂
