@@ -1,4 +1,4 @@
-# Project 1: Password Strength Checker (version1)
+# june 1, 2026
 
 # ask user to enter their password 
 password = input("enter your password : ")
